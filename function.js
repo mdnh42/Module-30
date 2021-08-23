@@ -19,3 +19,11 @@ function add(num1, num2 = 33){
 const result = add(12);
 console.log(result);
 
+// example
+function fullName (first, last='chowdhury'){
+    const name = first + ' ' + last;
+    return name;
+}
+
+const name = fullName('MD Nur ');
+console.log(name);
